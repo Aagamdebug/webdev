@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Organization</title>
+    <style>
+        body {
+            /* font-family: Arial, sans-serif; */
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #007BFF, #00C6FF);
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin-top: 1em;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .hero {
+            background: #007BFF;
+            color: white;
+            padding: 4em 1em;
+            text-align: center;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 1em 0 2em;
+        }
+        .hero .cta-button {
+            background: white;
+            /* color: #007BFF; */
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .overview {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5em;
+            padding: 2em 1em;
+            align-items: center;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-image: url('https://thumbs.dreamstime.com/b/portrait-volunteer-group-54970438.jpg');
+            background-size: cover;
+        }
+        .overview-item {
+            background: #f4f4f4;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .overview-item:nth-child(1) {
+            background: #ffcccc;
+            opacity: 0.8;
+        }
+        .overview-item:nth-child(2) {
+            background: #ccffcc;
+        }
+       
+        .overview-item:nth-child(4) {
+            background: #ccccff;
+        }
+
+        .overview-item h3 {
+            margin: 0 0 1em;
+        }
+        .overview-item a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1em;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        footer .social-media a {
+            color: #00C6FF;
+            text-decoration: none;
+            margin: 0 0.5em;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Non-profit Organization</h1>
+        <nav>
+            <ul>
+               
+                <li><a href="donating.html">Donate</a></li>
+                <li><a href="volunteering.html">Volunteer</a></li>
+                <li><a href="upcomingevent.html">Upcoming Events</a></li>
+                <li><a href="volunteering.html">Contact Us</a></li>
+                <li><a href="trusting.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to Our Organization</h2>
+            <p>Making a difference in our community through donations, volunteering, and impactful events.</p>
+            <a href="donating.html" class="cta-button">Make a Donation</a>
+        </section>
+
+        <section class="overview">
+            <div class="overview-item">
+                <h3>Donations</h3>
+                <p>Your contributions help us achieve our mission and support those in need.</p>
+                <a href="donating.html">Learn More</a>
+            </div>
+
+            <div class="overview-item">
+                <h3>Volunteering</h3>
+                <p>Join our team of dedicated volunteers and make an impact.</p>
+                <a href="volunteering.html">Get Involved</a>
+            </div>
+
+            <div class="overview-item">
+                <h3>Upcoming Events</h3>
+                <p>Stay updated on our latest activities and join us in making a difference.</p>
+                <a href="upcomingevent.html">View Events</a>
+            </div>
+            <div class="overview-item">
+                <h3>Why us?</h3>
+                <p>Why should trust us over other organization,whats make us differnet</p>
+                <a href="trusting.html">About us</a>
+            </div>
+        </section>
+    </main>
+
+   
+</body>
+</html>
